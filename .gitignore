@@ -50,7 +50,10 @@ coverage.xml
 *.pot
 
 # Django stuff:
+*.db
 *.log
+*.sqlite3
+*settings.py
 local_settings.py
 
 # Flask stuff:
