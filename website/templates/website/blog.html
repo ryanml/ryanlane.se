@@ -1,0 +1,19 @@
+{% extends 'website/core.html' %}
+{% block content_block %}
+<div class="blog-wrapper">
+    {% for post in posts %}
+        <div class="post-wrapper">
+            <h1>{{post.title}}</h1>
+            <div class="post-info">
+                <span>
+                    <strong>By: </strong>{{post.author}}
+                </span>
+                <span>
+                    <strong>Written on: </strong>{{post.published_on}}
+                </span>
+            </div>
+            <p>{{post.content}}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

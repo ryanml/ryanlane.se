@@ -54,6 +54,7 @@ coverage.xml
 *.log
 *.sqlite3
 *settings.py
+*/migrations/*
 local_settings.py
 
 # Flask stuff:

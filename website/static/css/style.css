@@ -1,4 +1,6 @@
-.content-wrapper {
+/** General styles **/
+/** Home page **/
+.index-wrapper {
     display:block;
     width:85%;
     margin:50px auto;
@@ -16,4 +18,16 @@
     width:100%;
     height:500px;
     display:inline-block;
+}
+/** Blog styles **/
+.blog-wrapper {
+    padding:20px;
+}
+.post-wrapper {
+    padding:5px 10px;
+    border-bottom:1px solid #e5e5e5;
+}
+.post-info {
+    display:block;
+    margin:5px 0px;
 }
